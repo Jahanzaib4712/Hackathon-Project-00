@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import  AkarIconsChevronDown  from "../Public/Images/akar-icons-chevron-down.svg";
+import  AkarIconsChevronDown  from "../public/Images/akar-icons-chevron-down.svg";
 import  Check  from "../public/Images/check.svg";
 import  FluentCart24Regular  from "../public/Images/fluent-cart-24-regular.svg";
 // import  IconComponentNode  from "../public/Images/IconComponentNode";
@@ -9,7 +9,6 @@ import  Line2  from "../public/Images/line-2.svg";
 import  Line21  from "../public/Images/line-2-1.svg";
 import  Line120  from "../public/Images/line-120.svg";
 import  UilCalendarAlt  from "../public/Images/uil-calendar-alt.svg";
-import  UilEnvelopeAlt  from "../public/Images/uil-envelope-alt.svg";
 import  UilHeartAlt  from "../public/Images/uil-heart-alt.svg";
 import  UilSearchPlus  from "../public/Images/uil-search-plus.svg";
 import  UilSearchPlus1  from "../public/Images/uil-search-plus-1.svg";
