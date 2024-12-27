@@ -54,22 +54,22 @@ const MyAccount = () => {
                 </div>
               </div>
 
-            
 
-            
+
+
             </div>
           </div>
 
           <img
             className="absolute w-[904px] h-[93px] top-[190px] left-0 object-cover"
             alt="Image"
-            // src={image1174}
+          // src={image1174}
           />
         </div>
 
         <div className="absolute w-[1920px] h-[532px] top-[1316px] left-px">
-      
-          
+
+
         </div>
 
         <div className="absolute w-[544px] h-[474px] top-[531px] left-[688px] bg-[#ffffff] shadow-[0px_0px_25px_10px_#f8f8fb]">
@@ -108,15 +108,15 @@ const MyAccount = () => {
                   Sign In
                 </div>
               </div>
-              
+
             </div>
           </div>
-          
+
         </div>
       </div>
-      
+
     </div>
-    
+
   );
 };
 export default MyAccount;

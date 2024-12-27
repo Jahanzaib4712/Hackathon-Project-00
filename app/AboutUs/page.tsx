@@ -33,8 +33,7 @@ const  AboutUs = () => {
           <div className="relative w-[570px] h-[409px]">
             <div className="absolute inset-0 bg-[#2b3cab] rounded-md"></div>
             <img
-              
-              alt="Rectangle"
+              alt=".."
               className="absolute top-0 left-[15px] w-[555px] h-[390px]"
             />
           </div>
@@ -57,17 +56,17 @@ const  AboutUs = () => {
           <h2 className="text-4xl font-bold">Our Features</h2>
           <div className="grid grid-cols-4 gap-10 mt-10">
             {[
-              { title: "Free Delivery" },
-              { title: "100% Cash Back" },
-              { title: "Quality Product"  },
-              { title: "24/7 Support" },
+              {Image: "/Images/delivery.png",  title: "Free Delivery" },
+              {Image: "/Images/cashback.png", title: "100% Cash Back" },
+              {Image: "/Images/premium.png", title: "Quality Product"  },
+              {Image: "/Images/24hour.png",title: "24/7 Support" },
             ].map((feature, index) => (
               <div
                 key={index}
                 className="bg-white shadow-lg p-6 rounded-md flex flex-col items-center"
               >
                 <img
-                  src={feature.title}
+                  src={feature.Image}
                   alt={feature.title}
                   className="w-16 h-16 mb-4"
                 />
@@ -85,7 +84,7 @@ const  AboutUs = () => {
           <div className="mt-10">
             <div className="flex justify-center space-x-6">
               <img
-                // src={maskGroup}
+                // src= "/images"
                 alt="Client 1"
                 className="w-16 h-16 rounded-full"
               />

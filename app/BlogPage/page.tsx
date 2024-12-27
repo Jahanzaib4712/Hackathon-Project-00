@@ -314,28 +314,6 @@ const BlogPage = () => {
                     </div>
                 </div>
 
-                {/* <div className="absolute w-[236px] h-6 top-[2763px] left-[688px]">
-                    <div className="relative h-6">
-                        <PageButton
-                            className="!absolute !left-0 !top-0"
-                            property1="square-hover"
-                        />
-                        <PageButton
-                            className="!absolute !left-[68px] !top-0"
-                            property1="square"
-                        />
-                        <PageButton
-                            className="!absolute !left-[136px] !top-0"
-                            property1="square"
-                            text="3"
-                        />
-                        <PageButton
-                            className="!absolute !left-[204px] !top-0"
-                            property1="square"
-                            text="4"
-                        />
-                    </div>
-                </div> */}
 
                 <div className="absolute w-[250px] h-[270px] top-[922px] left-[1297px]">
                     <img
@@ -466,32 +444,7 @@ const BlogPage = () => {
                 </div>
 
                 <div className="absolute w-64 h-[161px] top-[665px] left-[1297px]">
-                    {/* <div className="absolute w-[254px] h-[114px] top-[47px] left-0">
-            <button
-              className="!absolute !left-[132px] !top-0"
-              property1="catagory-1"
-            />
-            <CatagoryButton
-              className="!absolute !left-0 !top-[84px]"
-              property1="catagory-1"
-            />
-            <CatagoryButton
-              className="!absolute !left-[132px] !top-[84px]"
-              property1="catagory-1"
-            />
-            <CatagoryButton
-              className="!absolute !left-0 !top-[42px]"
-              property1="catagory-1"
-            />
-            <CatagoryButton
-              className="!absolute !left-[132px] !top-[42px]"
-              property1="catagory-1"
-            />
-            <CatagoryButton
-              className="!absolute !left-0 !top-0"
-              property1="catagory-2"
-            />
-          </div> */}
+            
 
                     <div className="absolute top-0 left-0 font-list-titles font-[number:var(--list-titles-font-weight)] text-text text-[length:var(--list-titles-font-size)] tracking-[var(--list-titles-letter-spacing)] leading-[var(--list-titles-line-height)] whitespace-nowrap [font-style:var(--list-titles-font-style)]">
                         Categories
